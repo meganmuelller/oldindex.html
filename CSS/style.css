@@ -1,0 +1,63 @@
+ul{
+   font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  background-color: greenyellow;
+  text-align: center;
+}
+
+ol {
+  background-color: skyblue;
+  font-family: 'Gloock', serif;
+  font-size: 15px;
+}
+
+li{
+  text-align: center;
+  font-size: 15px;
+}
+
+p{
+font-family: 'Prata', serif;
+  color:seagreen;
+  background-color: yellow;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+body{
+  text-align: center;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom:0;
+  width:100%;
+  background-color: yellow;
+  color: seagreen;
+  text-align: center;
+
+}
+
+
+<div class="footer">
+  <p> Footer </p>
+
+  </div>
+
+/*When the browswer is at least 550px wide*/
+@media (min-width: 550px) {
+
+  .media-holder {
+    flex-direction: row;
+}
+
+.image-holder {
+  width: 30%;
+}
+
+.media-list {
+  width: 70%;
+}
